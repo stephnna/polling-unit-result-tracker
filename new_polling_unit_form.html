@@ -1,0 +1,27 @@
+
+<!-- Question 3: Storing Results for All Parties for a New Polling Unit -->
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>New Polling Unit Form</title>
+</head>
+<body>
+    <h2>New Polling Unit Form</h2>
+    <form action="/save_polling_unit_results" method="post">
+        <label for="polling_unit_id">Polling Unit ID:</label>
+        <input type="text" id="polling_unit_id" name="polling_unit_id" required><br><br>
+
+        <label for="party_abbreviation">Party Abbreviation:</label>
+        <input type="text" id="party_abbreviation" name="party_abbreviation" required><br><br>
+
+        <label for="party_score">Party Score:</label>
+        <input type="text" id="party_score" name="party_score" required><br><br>
+
+        <input type="submit" value="Submit">
+    </form>
+</body>
+</html>
